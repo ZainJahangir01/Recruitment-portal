@@ -41,15 +41,20 @@
 </div>
 <div class="datesetterDesign"></div>
 <div class="tableHead">
-  <!-- <ag-grid-angular
-    style="width: 500px; height: 200px"
-    class="ag-theme-alpine"
+  <ag-grid-angular
+    style="width: 1202px; height: 150px"
+    class="ag-theme-balham"
     [rowData]="rowData"
+    [columnDefs]="columnDefs"
   >
-  </ag-grid-angular> -->
-
-  <p class="tableHeadData">Track</p>
-  <p class="tableHeadData2">No. of Requested Resource</p>
-  <p class="tableHeadData3">Filled Position</p>
-  <p class="tableHeadData3">Opened Position</p>
+  </ag-grid-angular>
+</div>
+<div class="tableHead1">
+  <ag-grid-angular
+    style="width: 1202px; height: 150px"
+    class="ag-theme-balham"
+    [rowData]="rowData1"
+    [columnDefs]="columnDefs1"
+  >
+  </ag-grid-angular>
 </div>
